@@ -1,0 +1,22 @@
+{
+    "name": "simple-http-server",
+    "version": "1.0.0",
+    "engines": {
+        "node": "9.2.0",
+        "npm": "5.5.1"
+    },
+    "description": "A very simple http server",
+    "main": "server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+    },
+    "author": "Ian Moon",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^5.5.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-plugin-import": "^2.14.0"
+    }
+}
